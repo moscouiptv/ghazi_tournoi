@@ -1,0 +1,221 @@
+/* Import de la police Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Réinitialisation des styles de base */
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+/* Logo */
+.logo img {
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #8a2be2;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.navigation a:hover {
+    color: #435585;
+}
+
+/* Add styles for the new Dashboard button */
+.navigation a:last-child {
+    color: white;
+    background-color: #8a2be2;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-left: 30px; /* Adjusted margin for spacing between the last link and the others */
+    transition: 0.7s ease;
+}
+
+.navigation a:last-child:hover {
+    background-color: aqua;
+    color: #471a72;
+    transform: scale(1.1);
+}
+
+
+/* Section principale */
+section {
+    padding: 180px ; /* Ajusté pour un meilleur espacement */
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(main-background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    flex-direction: column; /* Modification pour centrer les éléments */
+    text-align: center; /* Ajout pour centrer le texte */
+    opacity: 0.8; /* Ajustez cette valeur pour changer l'opacité (0 à 1) */
+}
+
+
+
+.main h2 {
+    color: #8a2be2; /* Violet profond */
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 10px; /* Ajustement pour l'espacement */
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color:#471a72;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #8a2be2;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.enregistre-btm {
+    color: white;
+    background-color:#8a2be2;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px; /* Ajustement de la marge */
+    transition: 0.7s ease;
+}
+
+.enregistre-btm:hover {
+    background-color:aqua;
+    color: #471a72;
+    transform: scale(1.1);
+}
+
+/* Nouveaux boutons ajoutés dans la section principale */
+.main-buttons {
+    display: flex;
+    flex-direction: column; /* Ajout pour empiler les boutons */
+    align-items: center; /* Ajout pour centrer les boutons */
+}
+
+.main-buttons .enregistre-btm {
+    margin-bottom: 15px; /* Ajustez l'espacement entre les boutons selon vos préférences */
+}
+
+.qui-nous {
+    display: flex;
+    justify-content: center;
+    color: #8a2be2;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mohamed {
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0px 5px 25px rgba(1 1 1  / 100%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.mohamed:hover {
+    transform: scale(1.1);
+}
+
+.etudiant-name {
+    text-align: center;
+    color:#8a2be2;
+}
+
+.image {
+    color: #8a2be2;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color:#471a72;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info2 h2 {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+
+/* Footer ----- */
+
+.footer {
+    background-color: #f5f5dc;
+    padding: 20px;
+  }
+  
+  .footer p {
+    text-align: center;
+  }
+  
+  .footer p span a {
+    color: #8a2be2;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+
+  

@@ -1,0 +1,60 @@
+/* Reset some default styles for the body */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff; /* White background */
+}
+
+/* Styles for the main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for the form */
+.form {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+}
+
+/* Styles for headings */
+h2 {
+  margin-bottom: 15px;
+}
+
+/* Styles for input fields */
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8a2be2; /* Violet */
+  color: #ffffff; /* White text */
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #471a72; /* Dark violet on hover */
+}
+
+/* Styles for the "Already have an account?" section */
+.toggle-signup {
+  margin-top: 10px;
+  font-size: 0.8em;
+}

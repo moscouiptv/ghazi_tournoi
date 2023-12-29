@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff; /* blanc */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+}
+
+.form.active {
+  display: flex;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8a2be2; /* violet */
+  color: #ffffff; /* blanc */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #471a72; /* violet foncé */
+}
+
+.toggle-signup {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
